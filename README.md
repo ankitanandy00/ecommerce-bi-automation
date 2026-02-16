@@ -8,19 +8,7 @@ This project demonstrates how historical and streaming data can be combined to b
 This project collects historical e-commerce data using the Kaggle API and combines it with simulated live order data generated through Python scripts. An automated ETL pipeline cleans and transforms the data before loading it into an analytics-ready table in MySQL. Power BI dashboards are then used to monitor sales performance, profit trends, and business KPIs.
 
 # ⚙️ Architecture
-Kaggle Dataset
-      ↓
-   MySQL (raw_orders)
-      ↓
-Python Live Order Generator
-      ↓
-   MySQL (live_orders)
-      ↓
-Python ETL Cleaning Pipeline
-      ↓
-   MySQL (clean_orders)
-      ↓
-Power BI Dashboard
+"C:\Users\ankit\OneDrive\Pictures\Screenshots\Screenshot 2026-02-16 151040.png"
 
 # 🧰 Tech Stack
 
@@ -63,13 +51,7 @@ Power BI Dashboard
 5. Key business KPIs
 
 # 📂 Project Structure
-├── data/
-├── generate_live_orders.py
-├── python_cleaning.py
-├── load_to_mysql.py
-├── dashboard/
-└── README.md
-
+"C:\Users\ankit\OneDrive\Pictures\Screenshots\Screenshot 2026-02-16 151022.png"
 # 🧠 Learning Outcomes
 
 - Built an automated ETL pipeline using Python and SQL
